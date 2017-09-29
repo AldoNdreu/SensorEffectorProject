@@ -1,2 +1,2 @@
 # SensorEffectorProject
-Username.github.io/SensorEffectorProject
+https://aldondreu.github.io/SensorEffectorProject/
