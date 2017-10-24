@@ -9,7 +9,7 @@ Example Blog.
 -------------
 
 
-  <li>Began to research parts and ordering them.</li>
+  <l>Began to research parts and ordering 
 
 
  
