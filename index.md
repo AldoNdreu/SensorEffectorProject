@@ -10,7 +10,7 @@ Example Blog.
 
 <ul>
   <li>Began to research parts and ordering them.</li>
-</ul>
+
 
  
 
