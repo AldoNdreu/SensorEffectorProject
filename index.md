@@ -8,12 +8,6 @@ title: simple site
 Example Blog.
 -------------
 
-
-  <l>Began to research parts and ordering 
-
-
- 
-
 ### September 20, 2017
 
 Created [project schedule](https://github.com/six0four/StudentSenseHat/blob/master/documentation/Week3RubricforProjectSchedule.xml).  
