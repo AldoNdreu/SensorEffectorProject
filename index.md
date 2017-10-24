@@ -13,6 +13,8 @@ Example Blog.
   <li>Created GitHub account and setup a repository for the project.</li>
 </ul>
 
+img src="radio.jpg" alt="Radio">
+
 ### September 20, 2017
 
 Created [project schedule](https://github.com/six0four/StudentSenseHat/blob/master/documentation/Week3RubricforProjectSchedule.xml).  
