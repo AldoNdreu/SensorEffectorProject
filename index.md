@@ -8,7 +8,7 @@ title: simple site
 Example Blog.
 -------------
 
-<ul>
+
   <li>Began to research parts and ordering them.</li>
 
 
