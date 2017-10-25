@@ -14,7 +14,7 @@ Example Blog.
 </ul>
 
 <img>
-<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="Radio Pic" width="128" height="128">
+<img src="radio.JPG" alt="Radio Pic" width="128" height="128">
 </img>
 ### September 20, 2017
 
