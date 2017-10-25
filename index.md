@@ -13,9 +13,9 @@ Example Blog.
   <li>Created GitHub account and setup a repository for the project.</li>
 </ul>
 
-
+<img>
 <img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="Radio Pic" width="128" height="128">
-
+</img>
 ### September 20, 2017
 
 Created [project schedule](https://github.com/six0four/StudentSenseHat/blob/master/documentation/Week3RubricforProjectSchedule.xml).  
