@@ -13,7 +13,7 @@ Example Blog.
   <li>Created GitHub account and setup a repository for the project.</li>
 </ul>
 
-<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="RadioPic Icon" width="128" height="128">
+<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="RadioPic" style="width:128px";height:128px;">
 
 ### September 20, 2017
 
