@@ -12,8 +12,7 @@ Example Blog.
   <li>Tech Quiz about Microprocessers/Toolkit items.</li>
   <li>Created GitHub account and setup a repository for the project.</li>
 </ul>
-
-<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="RadioPic" style="width:128px";height:128px;">
+                                                                                                                                       <img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="RadioPic" style="width:500px;height:600px;">
 
 ### September 20, 2017
 
