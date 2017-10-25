@@ -14,7 +14,7 @@ Example Blog.
 </ul>
 
 
-<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="Girl in a jacket" width="128" height="128">
+<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG" alt="Radio Pic" width="128" height="128">
 
 ### September 20, 2017
 
