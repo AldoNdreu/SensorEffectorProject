@@ -7,7 +7,7 @@
 </ul>
     
     <H2>September 29 2017</H2>
-<a href"https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG">Radio Test</a>
+<a href"=https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG">Radio Test</a>
 <br>
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/radio.JPG">
 
