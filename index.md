@@ -1,3 +1,5 @@
+<html>
+  <body>
 ---
 tagline: Website with GitHub Pages
 description: Simple website with GitHub Pages
@@ -31,3 +33,5 @@ Created [repository](https://github.com/six0four/StudentSenseHat). Also generate
 ### August 30, 2017
 
 Welcome!
+<body>
+  <html>
