@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+  
+  <head>
+  <title>FM Tuner</title>
+</head>
   <body>
 <ul>
   <li>Tech Quiz about Microprocessers/Toolkit items.</li>
