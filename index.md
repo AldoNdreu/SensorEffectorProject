@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-  
   <head>
-  <title>FM Tuner</title>
 </head>
   <body>
 <ul>
