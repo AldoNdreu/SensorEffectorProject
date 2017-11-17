@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
         <h2>September 29 2017</h2>
