@@ -9,7 +9,7 @@
   <li>Created GitHub repository called https://aldondreu.github.io/SensorEffectorProject/ as blog</li>
   <li>Started working on Project Proposal</li>
   
- <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
+  <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
   
 
 </ul>
