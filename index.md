@@ -1,11 +1,16 @@
 <html>
   <head>
-        <h2>September 29 2017</h2>
+        <h2>Week 1 Hardware (A - Monday Sept. 11, B - Friday Sept. 8)</h2>
 </head>
   <body>
 <ul>
-  <li>Tech Quiz about Microprocessers/Toolkit items.</li>
-  <li>Created GitHub account and setup a repository for the project.</li>
+  <li>Tech Quiz</li>
+  <li>Created GitHub account and setup a repository for our project.</li>
+  <li>Created GitHub repository called https://aldondreu.github.io/SensorEffectorProject/ as blog</li>
+  <li>Started working on Project Proposal</li>
+
+  
+
 </ul>
     
 <a href="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/radio.JPG">Radio Test</a>
