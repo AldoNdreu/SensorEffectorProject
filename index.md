@@ -14,7 +14,7 @@
  </head>
   <li>Submitted Project Proposal:</li>
   
-<img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="Budget" width="250" height="250"><br>
+<img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="Budget" width="500" height="250"><br>
 
 
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/radio.JPG" alt="RadioPic" width="128" height="128">
