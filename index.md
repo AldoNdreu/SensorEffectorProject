@@ -10,9 +10,9 @@
   <li>Started working on Project Proposal</li>
   
  <head> 
-  <li><h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2></li>
+  <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
  </head>
- Submitted Project Proposal:
+ <h2>Submitted Project Proposal:</h2>
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Budget" width="250" height="250"><br>
 
 
