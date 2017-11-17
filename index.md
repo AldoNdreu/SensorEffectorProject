@@ -13,9 +13,7 @@
       <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
  </head>
   <li>Submitted Project Proposal:</li>
-  <a href="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/ProjectBudgetAldoNdreu.PNG">Budget
-</ul>
-    
+  
 <img src="https://https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="RadioPic" width="128" height="128"><br>
 
 
