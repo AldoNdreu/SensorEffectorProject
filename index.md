@@ -2,6 +2,7 @@
   <head>
         <h2>Week 1 Hardware (A - Monday Sept. 11, B - Friday Sept. 8)</h2>
   </head>
+  
   <body>
 <ul>
   <li>Tech Quiz</li>
@@ -13,6 +14,7 @@
  <head> 
   <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
  </head>
+ 
  <h2>Submitted Project Proposal:</h2>
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Budget" width="300" height="350"><br>
 <li> Watched some soldering videos</li>
@@ -24,6 +26,7 @@
  <h2>Submitted Project Schedule:</h2>
  <ul>
   <li>Started working on Project Budget</li>
+  <li>Started to work on ordering parts and obtaining proof of purchase</li>
   </ul>
 
 
