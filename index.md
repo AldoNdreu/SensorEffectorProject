@@ -22,6 +22,9 @@
  </head>
  
  <h2>Submitted Project Schedule:</h2>
+ <ul>
+  <li>Started working on Project Budget</li>
+  </ul>
 
 
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/radio.JPG" alt="RadioPic" width="128" height="128">
