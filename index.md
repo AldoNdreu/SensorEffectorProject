@@ -15,9 +15,9 @@
   <h2>Week 2 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
  </head>
  
- <h2>Submitted Project Proposal:</h2>
+ <ul><h2>Submitted Project Proposal:</h2>
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Budget" width="300" height="350"><br>
-<li> Watched some soldering videos</li>
+<li> Watched some soldering videos</li></ul>
 
  <head> 
   <h2>Week 3 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
@@ -29,6 +29,9 @@
   <li>Started to work on ordering parts and obtaining proof of purchase</li>
   </ul>
 
+head> 
+  <h2>Week 3 Hardware (A - Monday Sept. 18, B - Friday Sept. 15)</h2>
+ </head>
 
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/radio.JPG" alt="RadioPic" width="128" height="128">
 
