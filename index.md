@@ -1,6 +1,35 @@
 <html>
 
 <head> 
+  <h2>Week 6 Hardware (B - Friday Nov. 24, A - Monday Nov. 27)</h2>
+  </head>
+  
+  <ul>
+  <li>Continue working on blog</li>
+  <li>Started working on the module of PCB board</li>
+  </ul>
+  
+<head> 
+  <h2>Strike</h2>
+  </head>
+  
+  <ul>
+  <li>Starting reading how to connect my parts to my project</li>
+  <li>Started soldering on PCB Board (Still had to wait for the module)</li>
+  </ul>
+
+
+
+<head> 
+  <h2>Week 5 Hardware (B - Friday Oct. 13)</h2>
+  </head>
+  
+  <ul>
+  <li>Showed my aquisitions.</li>
+  <li>Set up Raspberry Pi with the SD Card</li>
+  </ul>
+
+<head> 
   <h2>Reading Days</h2>
  </head>
  
@@ -8,6 +37,7 @@
   <li>Ordered Parts</li>
   <li>Sent my Gerber files to Vlad/Kelly</li>
   <li>Blinked an LED on my Raspberry Pi</li>
+  <li>Started soldering on PCB Board (Still had to wait for the module)</li>
   </ul>
   
   <head> 
