@@ -39,6 +39,15 @@
   <li>Started obtaining proof of purchase reciepts</li>
   <li>Started to work unboxing video</li>
   </ul>
+ 
+ <head> 
+  <h2>Reading Days</h2>
+ </head>
+ 
+ <ul>
+  <li>Ordered Parts</li>
+  <li>Sent my Gerber files to Vlad/Kelly.</li>
+  </ul>
 
 
 </body>
