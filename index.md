@@ -14,6 +14,7 @@
  </head>
  <h2>Submitted Project Proposal:</h2>
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Budget" width="300" height="350"><br>
+<li> Watched some soldering videos</li>
 
 
 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/radio.JPG" alt="RadioPic" width="128" height="128">
