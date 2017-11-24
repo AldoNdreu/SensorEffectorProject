@@ -29,7 +29,7 @@
   <li>Started to work on ordering parts and obtaining proof of purchase</li>
   </ul>
 
-head> 
+<head> 
   <h2>Week 4 Hardware (A - Monday Oct. 2, B - Friday Sept. 29)</h2>
  </head>
  
