@@ -45,7 +45,7 @@
  </head>
  
  <h2>Submitted Project Budget:</h2>
- <img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="Budget" width="650" height="250"><br>
+ <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="Budget" width="650" height="250"><br>
  <ul>
   <li>Started obtaining proof of purchase reciepts</li>
   <li>Started to work unboxing video</li>
