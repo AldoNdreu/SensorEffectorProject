@@ -6,7 +6,8 @@
  
  <ul>
   <li>Ordered Parts</li>
-  <li>Sent my Gerber files to Vlad/Kelly.</li>
+  <li>Sent my Gerber files to Vlad/Kelly</li>
+  <li>Blinked an LED on my Raspberry Pi</li>
   </ul>
   
   <head> 
