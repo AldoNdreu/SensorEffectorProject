@@ -16,7 +16,7 @@
  </head>
  
 <h2>Submitted Project Proposal:</h2>
-<img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Budget" width="300" height="350"><br>
+<img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/AldoNdreuProposal.PNG" alt="Proposal" width="300" height="350"><br>
 <li> Watched some soldering videos</li>
 
  <head> 
@@ -34,6 +34,7 @@
  </head>
  
  <h2>Submitted Project Budget:</h2>
+ <img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/ProjectBudgetAldoNdreu.PNG" alt="Budget" width="300" height="350"><br>
  <ul>
   <li>Started obtaining proof of purchase reciepts</li>
   <li>Started to work unboxing video</li>
