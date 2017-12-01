@@ -9,6 +9,7 @@
   <li>Started working on the module of PCB board</li>
   </ul>
   <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/20171201_141852.jpg" alt="GreenLed" width="600" height="300"><br>
+   <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/blinkingRed.jpg" alt="RedLed" width="600" height="300"><br>
   
 <head> 
   <h2>Strike</h2>
