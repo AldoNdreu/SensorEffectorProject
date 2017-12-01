@@ -4,7 +4,7 @@
   <h2>Week 7 Hardware (A - Monday Dec. 4, B - Friday Dec. 1)</h2>
   </head>
   <ul>
-  <li>Demonstrated my completed PCB Board/li>
+  <li>Demonstrated my completed PCB Board</li>
   <li>When I ran the code traffic2B.c, the led on the PCB board would blink green and red one color after the other</li>
   </ul>
   
