@@ -1,4 +1,17 @@
 <html>
+  
+  <head> 
+  <h2>Week 7 Hardware (A - Monday Dec. 4, B - Friday Dec. 1)</h2>
+  </head>
+  <ul>
+  <li>Demonstrated my completed PCB Board/li>
+  <li>When I ran the code traffic2B.c, the led on the PCB board would blink green and red one color after the other</li>
+  </ul>
+  
+  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/20171201_141852.jpg" alt="GreenLed" width="600" height="300"><br>
+   <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/blinkingRed.jpg" alt="RedLed" width="600" height="300"><br>
+  
+  
 
 <head> 
   <h2>Week 6 Hardware (B - Friday Nov. 24, A - Monday Nov. 27)</h2>
@@ -8,8 +21,6 @@
   <li>Continue working on blog</li>
   <li>Started working on the module of PCB board</li>
   </ul>
-  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/20171201_141852.jpg" alt="GreenLed" width="600" height="300"><br>
-   <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/blinkingRed.jpg" alt="RedLed" width="600" height="300"><br>
   
 <head> 
   <h2>Strike</h2>
