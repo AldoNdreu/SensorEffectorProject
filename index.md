@@ -8,7 +8,7 @@
   <li>Continue working on blog</li>
   <li>Started working on the module of PCB board</li>
   </ul>
-  <img src="hhttps://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/20171201_141852.jpg" alt="GreenLed" width="650" height="250"><br>
+  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/20171201_141852.jpg" alt="GreenLed" width="650" height="250"><br>
   
 <head> 
   <h2>Strike</h2>
