@@ -1,6 +1,15 @@
 <html>
   
   <head> 
+  
+  <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
+  <ul>
+  <li>Continue working on blog</li>
+  <li>Started working on the module of PCB board</li>
+  </ul>
+
+  </head>
+  <head>
   <h2>Week 7 Hardware (A - Monday Dec. 4, B - Friday Dec. 1)</h2>
   </head>
   <ul>
