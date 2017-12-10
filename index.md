@@ -4,8 +4,10 @@
   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
   <ul>
-  <li>Continue working on blog</li>
-  <li>Started working on the module of PCB board</li>
+  <li>I was able to cut the trace near the IC1 on my PCB board</li>
+  <li>Was able to complete the placard by collaberating with my future group</li>
+  <li>Build Script: During my 30 seconds build video, I will start off by featuring an opening title screen with the project name and my name. After that, I will display all the parts needed to build the fm tuner which should take a few seconds. I will also show all the parts when they are assembled and connected to my platform which will be another few seconds. Once I have everything set up, I will show the project being powered up and then quickly describe the functionality in which I will demonstrate. This process will take some time but I should be able to condense everything I need to say and do within around 30 seconds/li>
+
   </ul>
 
   </head>
