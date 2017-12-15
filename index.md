@@ -1,5 +1,14 @@
 <html>
   
+  <head>
+  Week 9 Hardware (A - Monday Dec. 18, B - Friday Dec. 15)
+  <head>
+   <li>I was able to cut the trace near the IC1 on my PCB board</li>
+  <li>Was able to complete the placard by collaberating with my future group</li>
+  <li><b>Build Video: </b><br> 
+
+<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/FMRadioBuildVideoAldoNdreu.mp4 alt="BuildVideo" width="450" height="300"><br>    
+  
   <head>   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
     </head>
