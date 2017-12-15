@@ -1,5 +1,5 @@
 <html>
-  <body>
+    <body>
   <head>
   Week 9 Hardware (A - Monday Dec. 18, B - Friday Dec. 15)
   <head>
@@ -112,7 +112,6 @@
         <h2>Week 1 Hardware (A - Monday Sept. 11, B - Friday Sept. 8)</h2>
   </head>
   
-  <body>
 <ul>
   <li>Tech Quiz</li>
   <li>Created GitHub account and setup a repository for our project.</li>
