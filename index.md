@@ -4,7 +4,6 @@
       <h2>Week 9 Hardware (A - Monday Dec. 18, B - Friday Dec. 15)</h2>
   <head>
   <li><b>Build Video: </b><br> 
-    
     <video width="320" height="240" controls>
   <source src="pictures/FMRadioBuildVideoAldoNdreu.mp4" type="video/mp4">
   Your browser does not support the video tag.
