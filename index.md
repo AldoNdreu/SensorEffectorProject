@@ -7,7 +7,7 @@
   <li>Was able to complete the placard by collaberating with my future group</li>
   <li><b>Build Video: </b><br> 
 
-<img src="https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/FMRadioBuildVideoAldoNdreu.mp4 alt="BuildVideo" width="450" height="300"><br>    
+<embed src=https://github.com/AldoNdreu/SensorEffectorProject/blob/master/pictures/FMRadioBuildVideoAldoNdreu.mp4 " width="325" height="230" allowfullscreen="true" />
   
   <head>   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
