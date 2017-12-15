@@ -10,8 +10,7 @@
     <video width="320" height="240" controls>
   <source src="pictures/FMRadioBuildVideoAldoNdreu.mp4 type="video/mp4">
   Your browser does not support the video tag.
-</video>
-                                                                       </p>                                                                   
+</video></p>                                                                   
 
   <head>   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
