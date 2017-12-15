@@ -1,8 +1,8 @@
 <html>
   
-  <head> 
-  
+  <head>   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
+    </head>
   <ul>
   <li>I was able to cut the trace near the IC1 on my PCB board</li>
   <li>Was able to complete the placard by collaberating with my future group</li>
@@ -11,7 +11,6 @@
 
   </ul>
 
-  </head>
   <head>
   <h2>Week 7 Hardware (A - Monday Dec. 4, B - Friday Dec. 1)</h2>
   </head>
