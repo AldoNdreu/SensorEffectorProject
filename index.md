@@ -1,5 +1,5 @@
 <html>
-  
+  <body>
   <head>
   Week 9 Hardware (A - Monday Dec. 18, B - Friday Dec. 15)
   <head>
