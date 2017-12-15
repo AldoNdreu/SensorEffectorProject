@@ -6,11 +6,12 @@
    <li>I was able to cut the trace near the IC1 on my PCB board</li>
   <li>Was able to complete the placard by collaberating with my future group</li>
   <li><b>Build Video: </b><br> 
-    
+    <p>
     <video width="320" height="240" controls>
   <source src="pictures/FMRadioBuildVideoAldoNdreu.mp4 type="video/mp4">
   Your browser does not support the video tag.
 </video>
+                                                                       </p>                                                                   
 
   <head>   
   <h2>Week 8 Hardware (A - Monday Dec. 11, B - Friday Dec. 8)</h2>
