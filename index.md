@@ -3,8 +3,6 @@
   <head>
       <h2>Week 9 Hardware (A - Monday Dec. 18, B - Friday Dec. 15)</h2>
   <head>
-   <li>I was able to cut the trace near the IC1 on my PCB board</li>
-  <li>Was able to complete the placard by collaberating with my future group</li>
   <li><b>Build Video: </b><br> 
     <p>
     <video width="320" height="240" controls>
