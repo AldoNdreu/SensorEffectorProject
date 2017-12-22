@@ -3,7 +3,7 @@
         <head>
       <h2>Week 10 Hardware (A - Monday Jan. 8, B - Friday Dec. 22)</h2>
   </head>
-        <h3><b>Progress Report: <h3></b>
+        <h3><b>Progress Report: </h3></b>
         <h1><ul><i>Aldo Ndreu FM Tuner - Progress Report Week 10</h1></ul></i>
 <p>
 The project which I decided to undertake this semester was working with the si4703 FM Tuner sensor. I wanted to do this project while having one goal in mind at the end. That goal was to actually get radio stations playing so that I could actually hear music. This project took a while to complete as I had to do many things before I could actually connect and work with the sensor. Before I even started working on this project, I had to do some of the documentations such as proposal, project schedule, budget, and even the unboxing of my Raspberry Pi. Once I got all of those things sorted, I then had to research how I was going to connect my sensor with the Raspberry Pi which I was able to do. I was then able to follow all the steps given and was able to provide an actually project with the si4703 sensor working.<br>
