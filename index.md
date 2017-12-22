@@ -3,7 +3,7 @@
         <head>
       <h2>Week 10 Hardware (A - Monday Jan. 8, B - Friday Dec. 22)</h2>
   </head>
-        <li><b>Progress Report: </b></li><br>
+        <h1><li><b>Progress Report: </h1></b></li><br>
         <p>
         <ul><i>Aldo Ndreu FM Tuner - Progress Report Week 10</ul></i>
 
