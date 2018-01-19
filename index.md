@@ -8,6 +8,8 @@
             <p>
                The project which I decided to work on this semester was created by using the Si4703 FM Tuner and getting it to tune in to different radio stations. This project can be build by a single person and uses parts such as a Breadboard, Straight Male Pin Headers, and Male to Female jumper wires. Here is the schematic used for the Si4703 Evaluation Board:<br>
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Schematic.PNG" alt="GreenLed" width="600" height="450"><br>
+                Here is a bill of the Materials/Budget:<br>
+                <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/BillOfMaterials.PNG" alt="GreenLed" width="600" height="450"><br>
             </p>    
       <h2>Week 11 Hardware (A - Monday Jan. 15, B - Friday Jan. 12)</h2> 
        </head>
