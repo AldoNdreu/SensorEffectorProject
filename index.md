@@ -9,7 +9,8 @@
                The project which I decided to work on this semester was created by using the Si4703 FM Tuner and getting it to tune in to different radio stations. This project can be build by a single person and uses parts such as a Breadboard, Straight Male Pin Headers, and Male to Female jumper wires. Here is the original schematic used for the Si4703 Evaluation Board:<br>
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Schematic.PNG" alt="Schematic" width="600" height="450"><br>
                 <b>Bill of the Materials/Budget:</b><br><br>
-                <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Purchase.PNG" alt="ItemsPurchased"><br>
+                <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Purchase.PNG" alt="SensorPurchased"><br>
+                <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/BillOfMaterials.PNG" alt="ItemsPurchased"><br>
                 <b>Time Commitment:</b><br><br>
                 This project took me a while to complete. I had to put a lot of time and commitment in order to achieve the expected results. I first started off by researching my sensor and how I was going to implement it using the Raspberry Pi. This sensor was originally supposed to be done using an Arduino Pro Mini so I needed to make a few changes to the setup. I spend a couple of weeks researching and gathering all the neccessary equipment I needed in order to complete this project. Once I got my parts, I spend another couple of weeks putting it together. Overall, the time and commitment I put in this project was enough in order for me to complete and get my expected results.
             </p>    
