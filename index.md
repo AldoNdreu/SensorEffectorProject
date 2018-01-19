@@ -1,6 +1,11 @@
 <html>
     <body>
         <head>
+      <h2>Week 11 Hardware (A - Monday Jan. 15, B - Friday Jan. 12)</h2>
+            <li>Worked on PowerPoint for presentation and posted it on my blog</li>
+            <li>Gathered all my parts needed in order to do my presentation even though I was presenting next week</li>
+  </head>
+        <head>
       <h2>Week 10 Hardware (A - Monday Jan. 8, B - Friday Dec. 22)</h2>
   </head>
         <h3><b>Progress Report: </b></h3>
