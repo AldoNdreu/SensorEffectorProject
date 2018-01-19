@@ -1,8 +1,8 @@
 <html>
     <body>
-        <h2>Aldo Ndreu</h2>
-        <h2>N01108481</h2>
-        <h2>GitHub: https://github.com/AldoNdreu/SensorEffectorProject</h2>
+        <h3>Aldo Ndreu</h3>
+        <h3>N01108481</h3>
+        <h3>GitHub: https://github.com/AldoNdreu/SensorEffectorProject</h3>
         <head>            
       <h2>Week 12 Hardware (A - Monday Jan. 22, B - Friday Jan. 19)</h2> 
        </head>
