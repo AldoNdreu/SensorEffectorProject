@@ -8,8 +8,8 @@
             <p>
                The project which I decided to work on this semester was created by using the Si4703 FM Tuner and getting it to tune in to different radio stations. This project can be build by a single person and uses parts such as a Breadboard, Straight Male Pin Headers, and Male to Female jumper wires.<br><br><b>
                 <b>Correct Web Template Used:</b><br>
-                When building this project, always keep track of progress made since it will require some time and commitment. The best way to do this is by writing to a blog which is what we have been doing. We are creating our on website by using GitHub as our main starting point in order to get started. A template can be retrieved from <a href="https://github.com/six0four/StudentSenseHat">here</a>. In our case, we cloned the repository and either were either working with the index.md file or the indexcontent.html<br>
-                Original schematic used for the Si4703 Evaluation Board:<br></b>
+                When building this project, always keep track of progress made since it will require some time and commitment. The best way to do this is by writing to a blog which is what we have been doing. We are creating our on website by using GitHub as our main starting point in order to get started. A template can be retrieved from <a href="https://github.com/six0four/StudentSenseHat">here</a>. In our case, we cloned the repository and either were either working with the index.md file or the indexcontent.html
+                <br>Original schematic used for the Si4703 Evaluation Board:<br></b>
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Schematic.PNG" alt="Schematic" width="700" height="500"><br><br>
                  <b>Bill of the Materials/Budget:</b><br>
                 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Purchase.PNG" alt="SensorPurchased"><br>
