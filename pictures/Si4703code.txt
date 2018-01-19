@@ -1,0 +1,80 @@
+import RPi.GPIO as GPIO 
+import smbus 
+import time 
+ 
+i2c = smbus.SMBus(1) #use 0 for older RasPi 
+ 
+GPIO.setmode(GPIO.BCM) #board numbering
+GPIO.setup(23, GPIO.OUT) 
+GPIO.setup(0, GPIO.OUT)  #SDA or SDIO 
+ 
+#put SI4703 into 2 wire mode (I2C) 
+GPIO.output(0,GPIO.LOW) 
+time.sleep(.1) 
+GPIO.output(23, GPIO.LOW) 
+time.sleep(.1) 
+GPIO.output(23, GPIO.HIGH) 
+time.sleep(.1) 
+ 
+address = 0x10 #address of SI4703 from I2CDetect utility
+ 
+print "Initial Register Readings" 
+reg = i2c.read_i2c_block_data(address, 0, 32) 
+print reg 
+ 
+#write x8100 to reg 7 to activate oscellitor
+list1 = [0,0,0,0,0,0,0,0,0,129,0] 
+w6 = i2c.write_i2c_block_data(address, 0, list1) 
+time.sleep(1) 
+ 
+#write x4001 to reg 2 to turn off mute and activate IC
+list1 = [1] 
+#print list1 
+w6 = i2c.write_i2c_block_data(address, 64, list1) 
+time.sleep(.1) 
+ 
+#write volume 
+print "Doing VOlume lowest setting" 
+list1 = [15,0,0,0,0,0,15] 
+w6 = i2c.write_i2c_block_data(address, 64, list1) 
+ 
+#write channel 
+print "Setting Channel, pick a strong one" 
+ 
+nc = 1011 #this is 101.1 The Fox In Kansas City Classic Rock!! 
+nc *= 10  #this math is for USA FM only 
+nc -= 8750 
+nc /= 20 
+ 
+list1 = [1,128, nc] 
+#set tune bit and set channel 
+w6 = i2c.write_i2c_block_data(address, 64, list1) 
+time.sleep(1) #allow tuner to tune 
+# clear channel tune bit 
+list1 = [1,0,nc] 
+w6 = i2c.write_i2c_block_data(address, 64, list1) 
+ 
+reg2 = i2c.read_i2c_block_data(address,64, 32) 
+print reg2  #just to show final register settings
+ 
+#You should be hearing music now! 
+#Headphone Cord acts as antenna
+
+var = 1
+while var == 1 :
+   num = raw_input("Enter FM Frequency  [for 105.3 enter 1053] :")
+   print "Tuning: ", num
+   nc = int(num)
+   nc *= 10  #this math is for USA FM only, Greetings from San Jose California
+   nc -= 8750 
+   nc /= 20  
+   print "Param: ", nc
+   list1 = [1,128, nc] 
+   #set tune bit and set channel 
+   w6 = i2c.write_i2c_block_data(address, 64, list1) 
+   time.sleep(.1) #allow tuner to tune 
+   # clear channel tune bit 
+   list1 = [1,0,nc] 
+   w6 = i2c.write_i2c_block_data(address, 64, list1) 
+   reg2 = i2c.read_i2c_block_data(address,64, 32) 
+   print reg2  #Your newly entered Freq Param value will show up happily sitting at the 4th position of the registers array
