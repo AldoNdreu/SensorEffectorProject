@@ -11,7 +11,7 @@
                 When building this project, always keep track of progress made since it will require some time and commitment. The best way to do this is by writing to a blog which is what we have been doing. We are creating our on website by using GitHub as our main starting point in order to get started. A template can be retrieved from <a href="https://github.com/six0four/StudentSenseHat">here</a>. In our case, we cloned the repository and either were either working with the index.md file or the indexcontent.html.
                 <b><br><br>Original schematic used for the Si4703 Evaluation Board:</b><br>
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Schematic.PNG" alt="Schematic" width="700" height="500"><br><br>
-                 <b><br><br>Bill of the Materials/Budget:</b><br>
+                 <b><br>Bill of the Materials/Budget:</b><br>
                 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Purchase.PNG" alt="SensorPurchased"><br>
                 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/BillOfMaterials.PNG" alt="ItemsPurchased"><br><br>
                 <b>Time Commitment:</b><br>
