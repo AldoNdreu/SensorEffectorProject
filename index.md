@@ -1,6 +1,6 @@
 <html>
     <body>
-        <h2>Aldo Ndreu/h2>
+        <h2>Aldo Ndreu</h2>
         <h2>N01108481</h2>
         <h2>GitHub: https://github.com/AldoNdreu/SensorEffectorProject</h2>
         <head>            
