@@ -20,6 +20,8 @@
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/BuildInstructions.PNG" alt="MechanicalAssembly"><br>
                 <b><br>Soldering:</b><br>
                 The project which I decided to make requires soldering on the Si4703 board. Depending on which way it's done, you have the choice of using Right Angle Headers which is normally used on the Arduino Pro Mini or Straight Male Pin Headers. Since we are implementing it on a breadboard, we are using straight headers. This is done in order to have a strong connection for when putting the evaluation board on the breadboard and in order to have the best possible results.
+      <b>Power Up:</b><br><br>
+                If booting up for first time, insert the SD card to the SD card reader from the Raspberry Pi package and make the correct operating system is preinstalled. If not, the OS can be downloaded from this following link: https://www.raspberrypi.org/downloads/noobs/. Once the OS has been installed on the Raspberry Pi, insert the SD card into the SD slot of the Raspberry Pi and power it on by plugging the power into an electrical outlet. The Raspberry Pi should boot up. Before progressing any further, ssers are required to set up the operating system and configure their settings such as internet connection. Users should also have I2C enabled in order to do this project. To enable I2C, users will have to follow these steps <b>Start> Raspberry Pi configuration > Interfaces and ensure I2C is enabled.</b>                 
             </p>    
       <h2>Week 11 Hardware (A - Monday Jan. 15, B - Friday Jan. 12)</h2> 
        </head>
