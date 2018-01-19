@@ -2,7 +2,7 @@
     <body>
         <h4>Aldo Ndreu</h4>
         <h4>N01108481</h4>
-        <h4>GitHub: https://github.com/AldoNdreu/SensorEffectorProject</h4><br><br>
+        <h4>GitHub: https://github.com/AldoNdreu/SensorEffectorProject</h4><br>
         <head>            
       <h2>Week 12 Hardware (A - Monday Jan. 22, B - Friday Jan. 19)</h2> 
        </head>
