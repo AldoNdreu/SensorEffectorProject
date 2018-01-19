@@ -10,6 +10,7 @@
                  <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/Si4703Schematic.PNG" alt="GreenLed" width="600" height="450"><br>
                 Here is a bill of the Materials/Budget:<br><br>
                 <img src="https://raw.githubusercontent.com/AldoNdreu/SensorEffectorProject/master/pictures/BillOfMaterials.PNG" alt="GreenLed"><br>
+                This project took me a while to complete. I had to put a lot of time and commitment in order to achieve the expected results. I first started off by researching my sensor and how I was going to implement it using the Raspberry Pi. This sensor was originally supposed to be done using an Arduino Pro Mini so I needed to make a few changes to the setup. I spend a couple of weeks researching and gathering all the neccessary equipment I needed in order to complete this project. Once I got my parts, I spend another couple of weeks putting it together. Overall, the time and commitment I put in this project was enough in order for me to complete and get my expected results.
             </p>    
       <h2>Week 11 Hardware (A - Monday Jan. 15, B - Friday Jan. 12)</h2> 
        </head>
