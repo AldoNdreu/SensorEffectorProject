@@ -6,7 +6,7 @@
         <h3><b>Build Instructions: </b></h3>
         <head>
             <p>
-                Here are my build instructions
+               The project which I decided to work on this semester was created by using the Si4703 FM Tuner and getting it to tune in to different radio stations. This project can be build by a single person and uses parts such as a Breadboard, Straight Male Pin Headers, and Male to Female jumper wires.           
             </p>    
       <h2>Week 11 Hardware (A - Monday Jan. 15, B - Friday Jan. 12)</h2> 
        </head>
