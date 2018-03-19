@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.engineers.united.unitedengineers">
+    package="ca.humber.radiopi.radiopi">
 
     <!-- normal permissions -->
     <uses-permission android:name="android.permission.INTERNET" />
