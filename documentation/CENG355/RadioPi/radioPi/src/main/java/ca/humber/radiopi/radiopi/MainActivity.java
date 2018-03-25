@@ -14,10 +14,13 @@ import android.view.MenuItem;
 import android.widget.Toast;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
-import com.engineers.united.unitedengineers.mFragments.FavouriteListFragment;
-import com.engineers.united.unitedengineers.mFragments.StationListFragment;
+//import ca.humber.radiopi.radiopi.mFragments.FavouriteListFragment;
+//import ca.humber.radiopi.radiopi.mFragments.StationListFragment;
 
 import java.util.Locale;
+
+import ca.humber.radiopi.radiopi.mFragments.FavouriteListFragment;
+import ca.humber.radiopi.radiopi.mFragments.StationListFragment;
 
 /**
  * Created by aldo
@@ -70,7 +73,8 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
             FavouriteListFragment favouritesFragment=new FavouriteListFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.content_id,favouritesFragment).commit();
         }else if(position==2) {
-            Intent intent = new Intent(MainActivity.this, MusicPlayerActivity.class);
+            //Switched from MusicPlayer (removed in this version) to the RadioActivity.
+            Intent intent = new Intent(MainActivity.this, RadioActivity.class);
             startActivity(intent);
         }
         return true;
@@ -112,11 +116,13 @@ public class MainActivity extends AppCompatActivity implements AHBottomNavigatio
 
         switch (item.getItemId()) {
 
-            case R.id.About:
+            /* case R.id.About:
                 Intent intent = new Intent(MainActivity.this, About.class);
                 startActivity(intent);
                 break;
 
+                We will not have an about.class for the sake of demonstrating.
+            */
             case R.id.en:
                 Locale locale = new Locale(getString(R.string.en));
                 Locale.setDefault(locale);
