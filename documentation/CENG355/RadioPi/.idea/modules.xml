@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RadioPi.iml" filepath="$PROJECT_DIR$/RadioPi.iml" />
       <module fileurl="file://$PROJECT_DIR$/radioPi/app.iml" filepath="$PROJECT_DIR$/radioPi/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radioPi/radioPi.iml" filepath="$PROJECT_DIR$/radioPi/radioPi.iml" />
     </modules>
   </component>
 </project>
