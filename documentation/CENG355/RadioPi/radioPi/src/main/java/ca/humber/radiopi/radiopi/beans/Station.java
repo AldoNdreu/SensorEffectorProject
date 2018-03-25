@@ -6,7 +6,7 @@ Object to be created by stationlistfragment
 package ca.humber.radiopi.radiopi.beans;
 
 /**
- * Created by ryan on 2018-03-25.
+ * Edited by ryan on 2018-03-25.
  */
 
 public class Station {

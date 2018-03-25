@@ -18,7 +18,7 @@ import ca.humber.radiopi.radiopi.beans.Station;
 import ca.humber.radiopi.radiopi.utils.SharedPreference;
 
 /**
- * Created by ryan on 2018-03-25.
+ * Edited by ryan on 2018-03-25.
  */
 
 public class StationListAdapter extends ArrayAdapter<Station> {

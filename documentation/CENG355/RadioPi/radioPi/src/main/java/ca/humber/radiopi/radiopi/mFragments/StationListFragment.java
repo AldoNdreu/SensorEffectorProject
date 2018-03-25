@@ -34,7 +34,7 @@ import com.google.firebase.database.ValueEventListener;
 
 
 /**
- * Created by ryan on 2018-03-25.
+ * Edited by ryan on 2018-03-25.
  */
 
 public class StationListFragment extends Fragment implements OnItemClickListener, OnItemLongClickListener {
