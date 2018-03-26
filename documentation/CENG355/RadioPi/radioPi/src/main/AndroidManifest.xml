@@ -29,7 +29,5 @@
             </intent-filter>
         </activity>
         <activity android:name=".RadioActivity" />
-        <activity android:name=".MusicPlayerActivity" />
-        <activity android:name=".About" />
     </application>
 </manifest>

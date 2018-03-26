@@ -14,13 +14,10 @@ import android.view.MenuItem;
 import android.widget.Toast;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
-//import ca.humber.radiopi.radiopi.mFragments.FavouriteListFragment;
-//import ca.humber.radiopi.radiopi.mFragments.StationListFragment;
-
-import java.util.Locale;
-
 import ca.humber.radiopi.radiopi.mFragments.FavouriteListFragment;
 import ca.humber.radiopi.radiopi.mFragments.StationListFragment;
+
+import java.util.Locale;
 
 /**
  * Created by aldo
