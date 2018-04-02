@@ -34,13 +34,13 @@ import com.google.firebase.database.ValueEventListener;
 
 
 /**
- * Edited by ryan on 2018-03-25.
+ * Edited  by ryan on 2018-03-25.
  */
 
 public class StationListFragment extends Fragment implements OnItemClickListener, OnItemLongClickListener {
 
     public static final String ARG_ITEM_ID = "station_list";
-
+    /*
     public static String news_680NAME, news_680LINK, news_680DESCRIPTION, news_680URL;
     public static String boomFMNAME, boomFMLINK, boomFMDESCRIPTION, boomFMURL;
     public static String chfiNAME, chfiLINK, chfiDESCRIPTION, chfiURL;
@@ -56,6 +56,7 @@ public class StationListFragment extends Fragment implements OnItemClickListener
     public static String virginRadioNAME, virginRadioLINK, virginRadioDESCRIPTION, virginRadioURL;
     public static String z103NAME, z103LINK, z103DESCRIPTION, z103URL;
     public static String theEdgeNAME, theEdgeLINK, theEdgeDESCRIPTION, theEdgeURL;
+    */
     Intent i;
     Activity activity;
 
@@ -97,6 +98,10 @@ public class StationListFragment extends Fragment implements OnItemClickListener
 
                 if (dataSnapshot.exists()){
 
+
+
+
+                        /*
                         news_680NAME = dataSnapshot.child("680NEWS").child("Name").getValue().toString();
                         news_680LINK = dataSnapshot.child("680NEWS").child("Link").getValue().toString();
                         news_680DESCRIPTION = dataSnapshot.child("680NEWS").child("Description").getValue().toString();
@@ -185,6 +190,7 @@ public class StationListFragment extends Fragment implements OnItemClickListener
                         theEdgeLINK = dataSnapshot.child("theEdge").child("Link").getValue().toString();
                         theEdgeDESCRIPTION = dataSnapshot.child("theEdge").child("Description").getValue().toString();
                         theEdgeURL = dataSnapshot.child("theEdge").child("URL").getValue().toString();
+                        */
 
                     //This is usually outside the ValueEventListener
                     setStations();
@@ -204,6 +210,9 @@ public class StationListFragment extends Fragment implements OnItemClickListener
 
     private void setStations() {
         //Read in all our strings into an array list of type station
+
+        /*
+
         Station theEdge = new Station(1, theEdgeNAME, theEdgeLINK,theEdgeDESCRIPTION,theEdgeURL);
         Station virginRadio  = new Station(2, virginRadioNAME, virginRadioLINK,virginRadioDESCRIPTION,virginRadioURL);
         Station q107 = new Station(3, q107NAME, q107LINK,q107DESCRIPTION,q107URL);
@@ -237,6 +246,7 @@ public class StationListFragment extends Fragment implements OnItemClickListener
         stations.add(cfrb);
         stations.add(cftr);
         stations.add(chfiFM);
+        */
     }
 
     private void findViewsById(View view) { stationListView = (ListView) view.findViewById(R.id.list_station);}

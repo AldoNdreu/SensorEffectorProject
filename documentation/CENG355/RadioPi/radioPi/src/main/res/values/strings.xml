@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">XMPlayer</string>
-    <string name="GroupName">United Engineers</string>
+    <string name="app_name">RadioPi</string>
+    <string name="GroupName">RadioPi</string>
     <string name="LOADING">LOADING</string>
     <string name="PLAY">PLAY</string>
     <string name="PAUSE">PAUSE</string>
@@ -20,9 +20,9 @@
     <string name="red">red</string>
     <string name="no_permission">Please Allow Permission To Access MP3</string>
     <string name="start_duration">00:00:00</string>
-    <string name="created_by">XMPlayer Created By United Engineers</string>
-    <string name="version_num">Version 1.0</string>
-    <string name="website">https://github.com/SomethingTimeyWimey/UnitedEngineers</string>
+    <string name="created_by">RadioPi Created By RadioPi</string>
+    <string name="version_num">Version 2.0</string>
+    <string name="website">https://github.com/AldoNdreu/SensorEffectorProject/tree/master/documentation/CENG355</string>
     <string name="stationlist">station_list</string>
     <string name="favouriteslist">favourites_list</string>
     <string name="stationapp">STATION_APP</string>
