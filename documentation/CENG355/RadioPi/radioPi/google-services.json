@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "559303815290-o04t0pijm1gislonl04ng3gg7lqph9gq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.humber.radiopi.radiopi",
+            "certificate_hash": "b23f2e88aca6bcfe71f53f76451b88a86d8f1131"
+          }
+        },
+        {
           "client_id": "559303815290-7rf3upq8e3r37ss7jn55b6664qekk4gs.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559303815290-7rf3upq8e3r37ss7jn55b6664qekk4gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
