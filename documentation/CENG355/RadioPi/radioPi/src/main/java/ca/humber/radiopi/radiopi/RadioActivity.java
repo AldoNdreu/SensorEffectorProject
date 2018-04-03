@@ -74,7 +74,6 @@ public class RadioActivity extends Activity {
 
             e.printStackTrace();
         }
-        new DownloadFilesTask().execute(url1);
 
         //Setting pause/play button, after the loading is complete
         b_play.setOnClickListener(new View.OnClickListener() {
@@ -114,81 +113,6 @@ public class RadioActivity extends Activity {
             b_play.setEnabled(true);
             b_play.setText(R.string.PLAY);
 
-        }
-    }
-
-    //This one handles download the image files ASync with the URL passed in with bundle
-    private class DownloadFilesTask extends AsyncTask<URL, Integer, Long> {
-
-        @Override
-        protected Long doInBackground(URL... urls) {
-            int count = urls.length;
-            fileName = new String[count];
-            long totalSize = 0;
-            for (int i = 0; i < count; i++) {
-                totalSize += DownloadFile(urls[i], i);
-                publishProgress((int)((i / (float) count) * 100));
-
-                if (isCancelled()) break;
-            }
-            return totalSize;
-        }
-
-        private long DownloadFile(URL url, int j) {
-
-            //Checking again if the URL is legit http
-            int total = 0;
-            try {
-                URLConnection conn = url.openConnection();
-                if (!(conn instanceof HttpURLConnection))
-                    throw new IOException("Not an HTTP connection");
-
-
-                HttpURLConnection httpConn  = (HttpURLConnection) conn;
-                httpConn.setAllowUserInteraction(false);
-                httpConn.setInstanceFollowRedirects(true);
-                httpConn.setRequestMethod("GET");
-                httpConn.connect();
-
-                int response = httpConn.getResponseCode();
-                if (response == HttpURLConnection.HTTP_OK) {
-                    InputStream input = httpConn.getInputStream();
-
-                    //Creates necessary path for image file and image name
-                    String[] path = url.getPath().split("/");
-                    String imageName = path[path.length - 1];
-                    String PATH = getFilesDir() + "/Download/" ;
-                    File folder = new File(PATH);
-                    folder.mkdirs();
-                    fileName[j] = folder + "/" + imageName;
-                    String fileName = imageName;
-                    OutputStream output = new FileOutputStream(folder+"/"+fileName);
-
-                    byte data[] = new byte[1024];
-
-                    int count;
-                    while ((count = input.read(data)) != -1) {
-                        total += count;
-                        output.write(data, 0, count);
-                    }
-                    output.flush();
-                    output.close();
-                    input.close();
-
-                }
-
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-
-            return total;
-        }
-
-        protected void onPostExecute(Long result) {
-            //Set image into RadioActivity Image view
-            mImageView = (ImageView) findViewById(R.id.im1);
-            Bitmap myBitmap = BitmapFactory.decodeFile(fileName[0]);
-            mImageView.setImageBitmap(myBitmap);
         }
     }
 

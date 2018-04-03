@@ -40,23 +40,17 @@ import com.google.firebase.database.ValueEventListener;
 public class StationListFragment extends Fragment implements OnItemClickListener, OnItemLongClickListener {
 
     public static final String ARG_ITEM_ID = "station_list";
+
     /*
-    public static String news_680NAME, news_680LINK, news_680DESCRIPTION, news_680URL;
-    public static String boomFMNAME, boomFMLINK, boomFMDESCRIPTION, boomFMURL;
-    public static String chfiNAME, chfiLINK, chfiDESCRIPTION, chfiURL;
-    public static String choqFMNAME, choqFMLINK, choqFMDESCRIPTION, choqFMURL;
-    public static String chumFMNAME, chumFMLINK, chumFMDESCRIPTION, chumFMURL;
-    public static String classicalFMNAME, classicalFMLINK, classicalFMDESCRIPTION, classicalFMURL;
-    public static String htzFMNAME, htzFMLINK, htzFMDESCRIPTION, htzFMURL;
-    public static String indieFMNAME, indieFMLINK, indieFMDESCRIPTION, indieFMURL;
-    public static String jazzFMNAME, jazzFMLINK, jazzFMDESCRIPTION, jazzFMURL;
-    public static String kissFMNAME, kissFMLINK, kissFMDESCRIPTION, kissFMURL;
-    public static String newsTalkNAME, newsTalkLINK, newsTalkDESCRIPTION, newsTalkURL;
-    public static String q107NAME, q107LINK, q107DESCRIPTION, q107URL;
-    public static String virginRadioNAME, virginRadioLINK, virginRadioDESCRIPTION, virginRadioURL;
-    public static String z103NAME, z103LINK, z103DESCRIPTION, z103URL;
-    public static String theEdgeNAME, theEdgeLINK, theEdgeDESCRIPTION, theEdgeURL;
+        Initialized Strings for the stations frequencies.
     */
+    public static String boom_Name, boom_Freq, boom_Description;
+    public static String cbc_Name, cbc_Freq, cbc_Description;
+    public static String humbercollege_Name, humbercollege_Freq, humbercollege_Description;
+    public static String kiss_Name, kiss_Freq, kiss_Description;
+    public static String theMove_Name, theMove_Freq, theMove_Description;
+    public static String z1035_Name, z1035_Freq, z1035_Description;
+
     Intent i;
     Activity activity;
 
@@ -85,7 +79,7 @@ public class StationListFragment extends Fragment implements OnItemClickListener
         View view = inflater.inflate(R.layout.fragment_station_list, container, false);
         findViewsById(view);
 
-        //Intializing those above references
+        //Initializing those above references
         mDatabase = FirebaseDatabase.getInstance();
         reference = mDatabase.getReference(getString(R.string.stations));
 
@@ -98,100 +92,31 @@ public class StationListFragment extends Fragment implements OnItemClickListener
 
                 if (dataSnapshot.exists()){
 
+                    boom_Name = dataSnapshot.child("Boom973").child("Name").getValue().toString();
+                    boom_Freq = dataSnapshot.child("Boom973").child("Frequency").getValue().toString();
+                    boom_Description = dataSnapshot.child("Boom973").child("Description").getValue().toString();
 
+                    cbc_Name = dataSnapshot.child("CBCMusic941").child("Name").getValue().toString();
+                    cbc_Freq = dataSnapshot.child("CBCMusic941").child("Frequency").getValue().toString();
+                    cbc_Description = dataSnapshot.child("CBCMusic941").child("Description").getValue().toString();
 
+                    humbercollege_Name = dataSnapshot.child("HumberCollege969").child("Name").getValue().toString();
+                    humbercollege_Freq = dataSnapshot.child("HumberCollege969").child("Frequency").getValue().toString();
+                    humbercollege_Description = dataSnapshot.child("HumberCollege969").child("Description").getValue().toString();
 
-                        /*
-                        news_680NAME = dataSnapshot.child("680NEWS").child("Name").getValue().toString();
-                        news_680LINK = dataSnapshot.child("680NEWS").child("Link").getValue().toString();
-                        news_680DESCRIPTION = dataSnapshot.child("680NEWS").child("Description").getValue().toString();
-                        news_680URL = dataSnapshot.child("680NEWS").child("URL").getValue().toString();
+                    kiss_Name = dataSnapshot.child("Kiss925").child("Name").getValue().toString();
+                    kiss_Freq = dataSnapshot.child("Kiss925").child("Frequency").getValue().toString();
+                    kiss_Description = dataSnapshot.child("Kiss925").child("Description").getValue().toString();
 
+                    theMove_Name = dataSnapshot.child("TheMove935").child("Name").getValue().toString();
+                    theMove_Freq = dataSnapshot.child("TheMove935").child("Frequency").getValue().toString();
+                    theMove_Description = dataSnapshot.child("TheMove935").child("Description").getValue().toString();
 
-                        boomFMNAME = dataSnapshot.child("BOOMFM").child("Name").getValue().toString();
-                        boomFMLINK = dataSnapshot.child("BOOMFM").child("Link").getValue().toString();
-                        boomFMDESCRIPTION = dataSnapshot.child("BOOMFM").child("Description").getValue().toString();
-                        boomFMURL = dataSnapshot.child("BOOMFM").child("URL").getValue().toString();
+                    z1035_Name = dataSnapshot.child("Z1035").child("Name").getValue().toString();
+                    z1035_Freq = dataSnapshot.child("Z1035").child("Frequency").getValue().toString();
+                    z1035_Description = dataSnapshot.child("Z1035").child("Description").getValue().toString();
 
-
-                        chfiNAME = dataSnapshot.child("CHFI").child("Name").getValue().toString();
-                        chfiLINK = dataSnapshot.child("CHFI").child("Link").getValue().toString();
-                        chfiDESCRIPTION = dataSnapshot.child("CHFI").child("Description").getValue().toString();
-                        chfiURL = dataSnapshot.child("CHFI").child("URL").getValue().toString();
-
-
-                        choqFMNAME = dataSnapshot.child("CHOQFM").child("Name").getValue().toString();
-                        choqFMLINK = dataSnapshot.child("CHOQFM").child("Link").getValue().toString();
-                        choqFMDESCRIPTION = dataSnapshot.child("CHOQFM").child("Description").getValue().toString();
-                        choqFMURL = dataSnapshot.child("CHOQFM").child("URL").getValue().toString();
-
-
-                        chumFMNAME = dataSnapshot.child("CHUMFM").child("Name").getValue().toString();
-                        chumFMLINK = dataSnapshot.child("CHUMFM").child("Link").getValue().toString();
-                        chumFMDESCRIPTION = dataSnapshot.child("CHUMFM").child("Description").getValue().toString();
-                        chumFMURL = dataSnapshot.child("CHUMFM").child("URL").getValue().toString();
-
-
-                        classicalFMNAME = dataSnapshot.child("ClassicalFM").child("Name").getValue().toString();
-                        classicalFMLINK = dataSnapshot.child("ClassicalFM").child("Link").getValue().toString();
-                        classicalFMDESCRIPTION = dataSnapshot.child("ClassicalFM").child("Description").getValue().toString();
-                        classicalFMURL = dataSnapshot.child("ClassicalFM").child("URL").getValue().toString();
-
-
-                        htzFMNAME = dataSnapshot.child("HTZFM").child("Name").getValue().toString();
-                        htzFMLINK = dataSnapshot.child("HTZFM").child("Link").getValue().toString();
-                        htzFMDESCRIPTION = dataSnapshot.child("HTZFM").child("Description").getValue().toString();
-                        htzFMURL = dataSnapshot.child("HTZFM").child("URL").getValue().toString();
-
-
-                        indieFMNAME = dataSnapshot.child("INDIEFM").child("Name").getValue().toString();
-                        indieFMLINK = dataSnapshot.child("INDIEFM").child("Link").getValue().toString();
-                        indieFMDESCRIPTION = dataSnapshot.child("INDIEFM").child("Description").getValue().toString();
-                        indieFMURL = dataSnapshot.child("INDIEFM").child("URL").getValue().toString();
-
-
-                        jazzFMNAME = dataSnapshot.child("JAZZFM").child("Name").getValue().toString();
-                        jazzFMLINK = dataSnapshot.child("JAZZFM").child("Link").getValue().toString();
-                        jazzFMDESCRIPTION = dataSnapshot.child("JAZZFM").child("Description").getValue().toString();
-                        jazzFMURL = dataSnapshot.child("JAZZFM").child("URL").getValue().toString();
-
-
-                        kissFMNAME = dataSnapshot.child("KISSFM").child("Name").getValue().toString();
-                        kissFMLINK = dataSnapshot.child("KISSFM").child("Link").getValue().toString();
-                        kissFMDESCRIPTION = dataSnapshot.child("KISSFM").child("Description").getValue().toString();
-                        kissFMURL = dataSnapshot.child("KISSFM").child("URL").getValue().toString();
-
-
-                        newsTalkNAME = dataSnapshot.child("NEWSTALKRADIO").child("Name").getValue().toString();
-                        newsTalkLINK = dataSnapshot.child("NEWSTALKRADIO").child("Link").getValue().toString();
-                        newsTalkDESCRIPTION = dataSnapshot.child("NEWSTALKRADIO").child("Description").getValue().toString();
-                        newsTalkURL = dataSnapshot.child("NEWSTALKRADIO").child("URL").getValue().toString();
-
-
-                        q107NAME = dataSnapshot.child("Q107").child("Name").getValue().toString();
-                        q107LINK = dataSnapshot.child("Q107").child("Link").getValue().toString();
-                        q107DESCRIPTION = dataSnapshot.child("Q107").child("Description").getValue().toString();
-                        q107URL = dataSnapshot.child("Q107").child("URL").getValue().toString();
-
-
-                        virginRadioNAME = dataSnapshot.child("VirginRadio").child("Name").getValue().toString();
-                        virginRadioLINK = dataSnapshot.child("VirginRadio").child("Link").getValue().toString();
-                        virginRadioDESCRIPTION = dataSnapshot.child("VirginRadio").child("Description").getValue().toString();
-                        virginRadioURL = dataSnapshot.child("VirginRadio").child("URL").getValue().toString();
-
-
-                        z103NAME = dataSnapshot.child("Z103").child("Name").getValue().toString();
-                        z103LINK = dataSnapshot.child("Z103").child("Link").getValue().toString();
-                        z103DESCRIPTION = dataSnapshot.child("Z103").child("Description").getValue().toString();
-                        z103URL = dataSnapshot.child("Z103").child("URL").getValue().toString();
-
-
-                        theEdgeNAME = dataSnapshot.child("theEdge").child("Name").getValue().toString();
-                        theEdgeLINK = dataSnapshot.child("theEdge").child("Link").getValue().toString();
-                        theEdgeDESCRIPTION = dataSnapshot.child("theEdge").child("Description").getValue().toString();
-                        theEdgeURL = dataSnapshot.child("theEdge").child("URL").getValue().toString();
-                        */
-
+                    
                     //This is usually outside the ValueEventListener
                     setStations();
                     stationListAdapter = new StationListAdapter(activity, stations);
@@ -211,42 +136,21 @@ public class StationListFragment extends Fragment implements OnItemClickListener
     private void setStations() {
         //Read in all our strings into an array list of type station
 
-        /*
+        Station boom973 = new Station(1, boom_Name, boom_Freq, boom_Description);
+        Station cbc941 = new Station(2, cbc_Name, cbc_Freq, cbc_Description);
+        Station humbercollege969 = new Station(3, humbercollege_Name, humbercollege_Freq, humbercollege_Description);
+        Station kiss925 = new Station(4, kiss_Name, kiss_Freq, kiss_Description);
+        Station theMove935 = new Station(5, theMove_Name, theMove_Freq, theMove_Description);
+        Station z1035 = new Station(6, z1035_Name, z1035_Freq, z1035_Description);
 
-        Station theEdge = new Station(1, theEdgeNAME, theEdgeLINK,theEdgeDESCRIPTION,theEdgeURL);
-        Station virginRadio  = new Station(2, virginRadioNAME, virginRadioLINK,virginRadioDESCRIPTION,virginRadioURL);
-        Station q107 = new Station(3, q107NAME, q107LINK,q107DESCRIPTION,q107URL);
-        Station z103 = new Station(4, z103NAME, z103LINK,z103DESCRIPTION,z103URL);
-        Station classicalFM = new Station(5, classicalFMNAME, classicalFMLINK,classicalFMDESCRIPTION,classicalFMURL);
-        Station htzFM = new Station(6, htzFMNAME, htzFMLINK, htzFMDESCRIPTION, htzFMURL);
-        Station chumFM = new Station(7, chumFMNAME, chumFMLINK,chumFMDESCRIPTION,chumFMURL);
-        Station choqFM = new Station(8, choqFMNAME, choqFMLINK,choqFMDESCRIPTION,choqFMURL);
-        Station cjrtFM = new Station(9, jazzFMNAME, jazzFMLINK,jazzFMDESCRIPTION,jazzFMURL);
-        Station chbmFM = new Station(10, boomFMNAME, boomFMLINK,boomFMDESCRIPTION,boomFMURL);
-        Station cindFM = new Station(11, indieFMNAME, indieFMLINK,indieFMDESCRIPTION,indieFMURL);
-        Station ckisFM = new Station(12, kissFMNAME, kissFMLINK,kissFMDESCRIPTION,kissFMURL);
-        Station cfrb = new Station(13, newsTalkNAME, newsTalkLINK,newsTalkDESCRIPTION,newsTalkURL);
-        Station cftr = new Station(14, news_680NAME, news_680LINK, news_680DESCRIPTION, news_680URL);
-        Station chfiFM = new Station(15, chfiNAME, chfiLINK,chfiDESCRIPTION,chfiURL);
+        stations = new ArrayList<>();
 
-        stations = new ArrayList<Station>();
-
-        stations.add(theEdge);
-        stations.add(virginRadio);
-        stations.add(z103);
-        stations.add(q107);
-        stations.add(classicalFM);
-        stations.add(htzFM);
-        stations.add(chumFM);
-        stations.add(choqFM);
-        stations.add(cjrtFM);
-        stations.add(chbmFM);
-        stations.add(cindFM);
-        stations.add(ckisFM);
-        stations.add(cfrb);
-        stations.add(cftr);
-        stations.add(chfiFM);
-        */
+        stations.add(boom973);
+        stations.add(cbc941);
+        stations.add(humbercollege969);
+        stations.add(kiss925);
+        stations.add(theMove935);
+        stations.add(z1035);
     }
 
     private void findViewsById(View view) { stationListView = (ListView) view.findViewById(R.id.list_station);}

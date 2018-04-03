@@ -20,7 +20,7 @@ public class Station {
         super();
     }
 
-    public Station(int id, String name, String link ,String description, String imageURL) {
+    public Station(int id, String name, String link, String description) {
         super();
         this.id = id;
         this.link = link;

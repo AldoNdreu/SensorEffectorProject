@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RadioPi.iml" filepath="$PROJECT_DIR$/RadioPi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/radioPi/app.iml" filepath="$PROJECT_DIR$/radioPi/app.iml" />
+      <module fileurl="file://C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\RadioPi.iml" filepath="C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\RadioPi.iml" />
+      <module fileurl="file://C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\radioPi\app.iml" filepath="C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\radioPi\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/radioPi/radioPi.iml" filepath="$PROJECT_DIR$/radioPi/radioPi.iml" />
+      <module fileurl="file://C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\radioPi\radioPi.iml" filepath="C:\Users\Ryan\Documents\GitHub\SensorEffectorProject\documentation\CENG355\RadioPi\radioPi\radioPi.iml" />
     </modules>
   </component>
 </project>
