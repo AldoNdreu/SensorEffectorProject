@@ -29,13 +29,11 @@ import java.net.URLConnection;
 
 public class RadioActivity extends Activity {
 
-    String fileName[];
     Button b_play;
     MediaPlayer mediaPlayer;
     boolean prepared = false;          //These are just for checking if were ready to play the stream
     boolean started = false;          //and if the stream has started
     String name, streamLink, description, imageURL;
-    ImageView mImageView;
     URL url1;
 
     @Override
