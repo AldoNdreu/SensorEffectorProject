@@ -21,6 +21,8 @@ import android.widget.AdapterView.OnItemLongClickListener;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import ca.humber.radiopi.radiopi.MainActivity;
 import ca.humber.radiopi.radiopi.R;
 import ca.humber.radiopi.radiopi.RadioActivity;
 import ca.humber.radiopi.radiopi.adapter.StationListAdapter;
@@ -112,9 +114,9 @@ public class StationListFragment extends Fragment implements OnItemClickListener
                     theMove_Freq = dataSnapshot.child("TheMove935").child("Frequency").getValue().toString();
                     theMove_Description = dataSnapshot.child("TheMove935").child("Description").getValue().toString();
 
-                    z1035_Name = dataSnapshot.child("Z1035").child("Name").getValue().toString();
-                    z1035_Freq = dataSnapshot.child("Z1035").child("Frequency").getValue().toString();
-                    z1035_Description = dataSnapshot.child("Z1035").child("Description").getValue().toString();
+                    z1035_Name = dataSnapshot.child("z1035").child("Name").getValue().toString();
+                    z1035_Freq = dataSnapshot.child("z1035").child("Frequency").getValue().toString();
+                    z1035_Description = dataSnapshot.child("z1035").child("Description").getValue().toString();
 
                     
                     //This is usually outside the ValueEventListener
@@ -151,6 +153,8 @@ public class StationListFragment extends Fragment implements OnItemClickListener
         stations.add(kiss925);
         stations.add(theMove935);
         stations.add(z1035);
+
+
     }
 
     private void findViewsById(View view) { stationListView = (ListView) view.findViewById(R.id.list_station);}
@@ -161,14 +165,15 @@ public class StationListFragment extends Fragment implements OnItemClickListener
         Station station = (Station) parent.getItemAtPosition(position);
 
         String description = station.getDescription();
-        String streamLink = station.getLink();
-        String imageURL = station.getImageURL();
+        String freq = station.getFreq();
+       // String imageURL = station.getImageURL();
 
         i = new Intent(getActivity(), RadioActivity.class);
-
         i.putExtra(getActivity().getString(R.string.description), description);
-        i.putExtra(getActivity().getString(R.string.link), streamLink);
-        i.putExtra(getActivity().getString(R.string.imageurl), imageURL);
+        i.putExtra(getActivity().getString(R.string.freq), freq);
+        //i.putExtra(getActivity().getString(R.string.imageurl), imageURL);
+
+        //reference.child("Frequency").child("Name").setValue(cbc_Freq);
 
         startActivity(i);
         /*Use station.postion to decide which stream is being selected then run Radio activity*/

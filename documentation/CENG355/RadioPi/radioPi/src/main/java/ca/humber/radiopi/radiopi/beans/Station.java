@@ -15,18 +15,20 @@ public class Station {
     private String link;
     private String description;
     private String imageURL;
+    private String freq;
 
     public Station() {
         super();
     }
 
-    public Station(int id, String name, String link, String description) {
+    public Station(int id, String name, String freq, String description) {
         super();
         this.id = id;
         this.link = link;
         this.name = name;
         this.description = description;
         this.imageURL = imageURL;
+        this.freq = freq;
     }
 
     public int getId() {
@@ -68,6 +70,15 @@ public class Station {
     public void setImageURL(String imageURL) {
         this.imageURL = imageURL;
     }
+
+    public String getFreq(){
+        return freq;
+    }
+
+    public void setFreq(String freq){
+        this.freq = freq;
+    }
+
 
     @Override
     public int hashCode() {

@@ -38,4 +38,5 @@
     <string name="fr">fr</string>
     <string name="en">en</string>
     <string name="radioToast">Please Allow Up To 30 Seconds For Radio Stream To Load</string>
+    <string name="freq"></string>
 </resources>

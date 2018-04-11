@@ -27,28 +27,47 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import ca.humber.radiopi.radiopi.MainActivity;
+import ca.humber.radiopi.radiopi.R;
+import ca.humber.radiopi.radiopi.RadioActivity;
+import ca.humber.radiopi.radiopi.adapter.StationListAdapter;
+import ca.humber.radiopi.radiopi.beans.Station;
+import ca.humber.radiopi.radiopi.utils.SharedPreference;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 public class RadioActivity extends Activity {
 
     Button b_play;
     MediaPlayer mediaPlayer;
     boolean prepared = false;          //These are just for checking if were ready to play the stream
     boolean started = false;          //and if the stream has started
-    String name, streamLink, description, imageURL;
+    String name, freq, description, imageURL;
     URL url1;
+
+    private FirebaseDatabase mDatabase;
+    private DatabaseReference reference;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity1);
 
+        mDatabase = FirebaseDatabase.getInstance();
+        reference = mDatabase.getReference(getString(R.string.stations));
+
         //Leave Radio Page open until user locks the phone or exits the page
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
-        Toast.makeText(this, getResources().getString(R.string.radioToast), Toast.LENGTH_LONG).show();
 
+        Toast.makeText(this, getResources().getString(R.string.radioToast), Toast.LENGTH_LONG).show();
         //Passing string values from onItemClick() in StationListFragment
         Bundle bundle = getIntent().getExtras();
-        streamLink = bundle.getString(getString(R.string.link));
+        freq = bundle.getString(getString(R.string.freq));
         imageURL = bundle.getString(getString(R.string.imageurl));
         description = bundle.getString(getString(R.string.description));
 
@@ -56,14 +75,14 @@ public class RadioActivity extends Activity {
         descripView.setText(description);
 
         b_play = (Button) findViewById(R.id.b_play);
-        b_play.setEnabled(false);
-        b_play.setText(R.string.LOADING);
+        //b_play.setEnabled(false);
+        //b_play.setText(R.string.LOADING);
 
         //Setting up madia player here
         mediaPlayer = new MediaPlayer();
         mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-        new PlayerTask().execute(streamLink);
+        //new PlayerTask().execute(streamLink);
 
         //checking for a real URL that gets passed in from bundle
         try {
@@ -85,13 +104,14 @@ public class RadioActivity extends Activity {
                     started = true;
                     mediaPlayer.start();
                     b_play.setText(R.string.PAUSE);
+                    reference.child("Frequency").child("Name").setValue(freq);
                 }
             }
         });
     }
 
     //This task is for setting our radio stream with the first string passed in doInBackground
-    class PlayerTask extends AsyncTask<String, Void, Boolean> {
+    /* class PlayerTask extends AsyncTask<String, Void, Boolean> {
         @Override
         protected Boolean doInBackground(String...strings){
 
@@ -112,7 +132,7 @@ public class RadioActivity extends Activity {
             b_play.setText(R.string.PLAY);
 
         }
-    }
+    } */
 
     @Override
     protected void onPause() {
