@@ -5,12 +5,14 @@ package ca.humber.radiopi.radiopi;
  */
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -50,7 +52,6 @@ public class RadioActivity extends Activity {
 
     private FirebaseDatabase mDatabase;
     private DatabaseReference reference;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -94,16 +95,19 @@ public class RadioActivity extends Activity {
 
         //Setting pause/play button, after the loading is complete
         b_play.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view){
+
                 if(started){
                     started = false;
                     mediaPlayer.pause();
-                    b_play.setText(R.string.PLAY);
+                    //b_play.setText(R.string.PLAY);
+                    activityChange();
                 } else {
                     started = true;
                     mediaPlayer.start();
-                    b_play.setText(R.string.PAUSE);
+                    b_play.setText(R.string.MAIN_MENU);
                     reference.child("Frequency").child("Name").setValue(freq);
                 }
             }
@@ -134,6 +138,10 @@ public class RadioActivity extends Activity {
         }
     } */
 
+    public void activityChange(){
+        Intent intent = new Intent(RadioActivity.this, MainActivity.class);
+        startActivity(intent);
+    }
     @Override
     protected void onPause() {
         super.onPause();
@@ -157,4 +165,6 @@ public class RadioActivity extends Activity {
             mediaPlayer.release();
         }
     }
+
+
 }

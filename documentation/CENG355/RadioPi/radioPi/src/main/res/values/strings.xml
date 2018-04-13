@@ -4,7 +4,7 @@
     <string name="GroupName">RadioPi</string>
     <string name="LOADING">LOADING</string>
     <string name="PLAY">PLAY</string>
-    <string name="PAUSE">PAUSE</string>
+    <string name="MAIN_MENU">MAIN MENU</string>
     <string name="Radio">Radio</string>
     <string name="Favorites">Favorites</string>
     <string name="favorites">favorites</string>
