@@ -79,14 +79,14 @@ public class FavouriteListFragment extends Fragment{
                         Station station = (Station) parent.getItemAtPosition(position);
 
                         String description = station.getDescription();
-                        String streamLink = station.getLink();
                         String imageURL = station.getImageURL();
+                        String freq = station.getFreq();
 
                         i = new Intent(getActivity(), RadioActivity.class);
 
                         i.putExtra(getActivity().getString(R.string.description), description);
-                        i.putExtra(getActivity().getString(R.string.link), streamLink);
                         i.putExtra(getActivity().getString(R.string.imageurl), imageURL);
+                        i.putExtra(getActivity().getString(R.string.freq), freq);
 
                         startActivity(i);
                     }
